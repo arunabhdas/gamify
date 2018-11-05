@@ -7,172 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F1143CE3338BE4A1F874CF3EE44B03 /* Pods-GamifyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */; };
-		0A43EA5C67F39828285CBBB24581DDC2 /* Pages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */; };
-		20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27FAF534B5FC86F415F3EB34A0CE954E /* DissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */; };
-		34569A7150A9E6EB49E85079419546E9 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */; };
-		377EF1453BA0F54594BD59FBA798678C /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */; };
-		4508AD57C1E89D51580E249FDFCD1A6A /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */; };
-		54A6A7A3A65DF32E22D5D653BA2FB34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
-		55B194CF3DC7385E0650CFFED27CA3C9 /* Pods-GamifyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E1AA527B0A6D13610D556A4FC3765C9 /* Presentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65392940D9EFB4765E2EF0CF2EF96A22 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */; };
-		6FA259876CDE08F0AC268BDB61D134F2 /* PagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */; };
-		70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */; };
-		77C209980222D7A113AA84DF8C20D0CE /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */; };
-		83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */; };
-		A3E4A4D1DA5BBDAF49AA542E4E8E7184 /* Presentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */; };
-		A68DE8C423D399E976F3C97FEFC6687C /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745E75A148E7283613C6B85CE21622DB /* Animatable.swift */; };
-		AC89A6C5DC7A77E8319A1ABD72181772 /* Pages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACFED2409939DAA4638B0EEAF0D4B378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
-		B0076A66C5DABA4747D6EB46B25DFC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
-		BCA88184C540A9997D6015EB44C41717 /* SlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */; };
-		C0016DB768E29435469A8994567CEAD8 /* Pages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */; };
-		C3BA7DEB131D996DEE5350E547FF3014 /* Array+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */; };
-		DA332FA5801E5AAC2EE773DF21AEA1D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */; };
-		F1A5E06485C3D4BE5115FAA87BBD5678 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */; };
-		F2D3A126BBAAFD20A25A250CE1BF0647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
-		F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */; };
-		F8FE0198CFC525C6F2277DB56A498CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */; };
-		F950243D24FE39915449EA1ED8E639DF /* UIStoryboard+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */; };
+		00D15E0F3AEF1FA500368967D628DD06 /* Presentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5874CF93DF784989D250585E9BCC28 /* Presentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E76C84A0C6C419EA93A2026E008315 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */; };
+		08A89D84686B1902D62439A3BF31D3FF /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */; };
+		0CC530996904780A996BB3D8A3A4CE92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */; };
+		1D43FE47F4467D491E0F6A83320C9B73 /* Pods-GamifyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B2F75CA398FD5598A4492A17E6580 /* Pods-GamifyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C7EE9A66F18AC5298AFFE74953D63D /* SlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */; };
+		280D47E98038A1E105E09B6EFD972D7C /* UIStoryboard+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */; };
+		39F15AE327BF4D256F266DB60F4C34C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */; };
+		42303763E0AA11D0E5477676B0EE087D /* Array+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */; };
+		469AE8D85AC48E2200B64E4F65A47469 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */; };
+		5DE063128FBF3F4DDCB442C1D738BA4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6BBE406AC04E798E53A746A6BFF4AD /* UIKit.framework */; };
+		6C4F071FFB4F02CA0E3A1C34FDAB8C23 /* DissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */; };
+		7058D028E17F4FCDA3561E736864EC18 /* Pages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E10D2088DB944B6EC444455F1BA825 /* Pages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F2DAFDCB510F6F420825F28EC106E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6BBE406AC04E798E53A746A6BFF4AD /* UIKit.framework */; };
+		917430259C702E75137AD5160132B4C2 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */; };
+		A5C747B2EAF6EA545580F6CEFD157C6A /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745E75A148E7283613C6B85CE21622DB /* Animatable.swift */; };
+		A632729C5CD93E146A279BA1637BD995 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */; };
+		AD21D0EBA53CA70CDAA73C15FD7C1171 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */; };
+		C56D3FA40C20B44D62FE88B7E6293F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */; };
+		C8160C44E5DA428A77B00CE87426CE25 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */; };
+		CAB487F3EEEC76FC3615DBF79F3132D0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */; };
+		CDC157B81719DA2B167451A98372E11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */; };
+		DA5B26B606F56C17B86F21B587CC8614 /* Pages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106EE7C607BDDFFB0B6CB39970A9D82 /* Pages-dummy.m */; };
+		DE878DA1D924D39F9F1FF32D0AF511A3 /* Pages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */; };
+		E3225860CD244F2DB6BF42090A13DB44 /* Pods-GamifyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C96F3C71A8FB8A0AFCE41C00CD8243E9 /* Pods-GamifyApp-dummy.m */; };
+		E7E31C0683199F6742566A090B828F4A /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10838007174EB3995A1BBB113BA04398 /* Hue-dummy.m */; };
+		F3BEDE623A4D66A3CF004E7B2D60E6A5 /* PagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */; };
+		F791AAC57019379FE4EE60A87F2911E2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5495AE114EF2011BCF80BD0495A24D /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBFF805B45D0CDF799F82A8905007A15 /* Presentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F2D72FF7A747E982D29B57B04A35E /* Presentation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		289BF041FA59EF850FF0C42D27CA2BBD /* PBXContainerItemProxy */ = {
+		6A21DC4F2C409EE4F12F8F0379B64012 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2542602E50EDF091ADB18B4688DF34F;
+			remoteGlobalIDString = 8013C50ACFCB01E29FA71F095DD964AC;
+			remoteInfo = Pages;
+		};
+		9E490E5FC1E4E1C8005A201CC46FB746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54468DD73591E286BF8F29DDDCA54086;
+			remoteInfo = Presentation;
+		};
+		BA664096A28322BAF40B5CF02717FF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C36D6D9ED175C0126E2FB753CC136A;
 			remoteInfo = Hue;
 		};
-		2FE69352BF4B0EF68F262210BC169FFF /* PBXContainerItemProxy */ = {
+		D4584217DA24DF791BB8F2C9FD2379BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E050B62537A7E4FC038E95A002BF635;
+			remoteGlobalIDString = 8013C50ACFCB01E29FA71F095DD964AC;
 			remoteInfo = Pages;
-		};
-		D91E747DBBC132584CE31F2986B8E01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E050B62537A7E4FC038E95A002BF635;
-			remoteInfo = Pages;
-		};
-		DA89ABBE435819712EDFA48B1F4F46F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96E625E804F115436BF37E60191D243D;
-			remoteInfo = Presentation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		061DE26F34E2F15E1C5CA245298956CA /* Pages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-prefix.pch"; sourceTree = "<group>"; };
-		109EADD0CDAE858E1511EF0A465DCD5A /* Pods-GamifyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamifyApp-frameworks.sh"; sourceTree = "<group>"; };
+		0622114B8954F3588A4D0A908A966E55 /* Pages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pages.modulemap; sourceTree = "<group>"; };
+		074E3FE55CAC29BF56E1C1154E044097 /* Pods-GamifyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamifyApp.modulemap"; sourceTree = "<group>"; };
+		0B8F2D72FF7A747E982D29B57B04A35E /* Presentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentation-dummy.m"; sourceTree = "<group>"; };
+		10838007174EB3995A1BBB113BA04398 /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
 		10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = Source/PresentationController.swift; sourceTree = "<group>"; };
-		1F6C859346CF117C34D0D33CF5051219 /* Pods-GamifyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamifyApp-resources.sh"; sourceTree = "<group>"; };
+		1DB81E4EA9104B927DF7F67BF4A70F87 /* Presentation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentation.xcconfig; sourceTree = "<group>"; };
 		1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sugar.swift"; path = "Source/Array+Sugar.swift"; sourceTree = "<group>"; };
-		28E3DD8C7CFD57C3E296F1F2E10C2559 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E4B93B633D9E4340588B42FBBBB635F /* Presentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentation.modulemap; sourceTree = "<group>"; };
+		29993DF1E85E1473B64D74160C27AFFE /* Presentation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Presentation-Info.plist"; sourceTree = "<group>"; };
+		2C301E1E2E8540E21482BF4A51C8028D /* Pods-GamifyApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamifyApp-Info.plist"; sourceTree = "<group>"; };
 		3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
-		432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamifyApp-umbrella.h"; sourceTree = "<group>"; };
+		427B2F75CA398FD5598A4492A17E6580 /* Pods-GamifyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamifyApp-umbrella.h"; sourceTree = "<group>"; };
 		4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DissolveAnimation.swift; path = Source/Animations/DissolveAnimation.swift; sourceTree = "<group>"; };
-		4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
 		4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopAnimation.swift; path = Source/Animations/PopAnimation.swift; sourceTree = "<group>"; };
-		5B202648CB068E6C9B04EF49CE633B0A /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		5106EE7C607BDDFFB0B6CB39970A9D82 /* Pages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pages-dummy.m"; sourceTree = "<group>"; };
+		6319F2960DCE744916E3DCC0B8EA2089 /* Pods-GamifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.release.xcconfig"; sourceTree = "<group>"; };
 		688DDCEBE5216CFCE488728D5D3C2B35 /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
 		7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Source/Position.swift; sourceTree = "<group>"; };
 		745E75A148E7283613C6B85CE21622DB /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = Source/Animations/Animatable.swift; sourceTree = "<group>"; };
-		7E2FC8917FDDD93079E8AA89CFEE6E86 /* Pods-GamifyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamifyApp.modulemap"; sourceTree = "<group>"; };
-		820E2FB9E29BCD50BAE54B8FAACD638A /* Pods-GamifyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamifyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7651BE1B2145D2751DEFBC1024A05DD4 /* Pages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pages-Info.plist"; sourceTree = "<group>"; };
+		787FD92D4ADDDEECCFEB6DEBAF72EF54 /* Pods-GamifyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = Source/Extensions/CGPointExtension.swift; sourceTree = "<group>"; };
-		8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentation.xcconfig; sourceTree = "<group>"; };
-		9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentation-dummy.m"; sourceTree = "<group>"; };
+		8ECB87CF47C4AB5FA17FB3D1A2D6E1FD /* Pages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-prefix.pch"; sourceTree = "<group>"; };
+		913914084D405B70DB72CAB2B181C485 /* Hue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hue-Info.plist"; sourceTree = "<group>"; };
+		9FCA7C9275407A3A122C2CC1FEA535B1 /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
 		AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagesController.swift; path = Source/PagesController.swift; sourceTree = "<group>"; };
 		AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Content.swift; path = Source/Content.swift; sourceTree = "<group>"; };
 		AB6816F3C293A36A1FE26176154C1E07 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Presentation.framework; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimation.swift; path = Source/Animations/TransitionAnimation.swift; sourceTree = "<group>"; };
-		B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pages.xcconfig; sourceTree = "<group>"; };
-		B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamifyApp-dummy.m"; sourceTree = "<group>"; };
-		BBA1F457A57C8D05DC3B0691922EBF4E /* Pages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pages.modulemap; sourceTree = "<group>"; };
-		BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-umbrella.h"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GamifyApp.framework; path = "Pods-GamifyApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
-		D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-umbrella.h"; sourceTree = "<group>"; };
-		D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pages-dummy.m"; sourceTree = "<group>"; };
-		DA5DF998C96CF7E16E20CF9DC1DE42A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0BCEBF528ABA90C61BD3F9B14A30CC3 /* Presentation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-prefix.pch"; sourceTree = "<group>"; };
-		E1C665AF5B3F9A20CB549A7F949D6F38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A879A5F33A6718945C91C6716C2CD8 /* Pods-GamifyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamifyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C96F3C71A8FB8A0AFCE41C00CD8243E9 /* Pods-GamifyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamifyApp-dummy.m"; sourceTree = "<group>"; };
+		D1D7E03CA70C9A7762992870ACA07647 /* Pods-GamifyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamifyApp-frameworks.sh"; sourceTree = "<group>"; };
+		D1E10D2088DB944B6EC444455F1BA825 /* Pages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-umbrella.h"; sourceTree = "<group>"; };
+		D4CFCB46EAE9D5A0577DB4A65DB045C8 /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		DA5495AE114EF2011BCF80BD0495A24D /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
+		DED067697416D09B4272CFB34C603B0E /* Pages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pages.xcconfig; sourceTree = "<group>"; };
 		E46616944626F94452FAD4A76E486369 /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pages.framework; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
-		EAB29E2EFD9EC5A896256605B3A4F79F /* Pods-GamifyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamifyApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEAFD92ACF3FCD6E69F9BFDD5807943F /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
-		F09A1511585CBD7E4D2667D1E59DEC3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5874CF93DF784989D250585E9BCC28 /* Presentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-umbrella.h"; sourceTree = "<group>"; };
+		EEAAA5A83740E0833E13D70D43ADCC00 /* Presentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentation.modulemap; sourceTree = "<group>"; };
+		EF6BBE406AC04E798E53A746A6BFF4AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0DD79DF254ECADD0574659C110CE12E /* Presentation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-prefix.pch"; sourceTree = "<group>"; };
+		F830AAE925DDC3CD82E1820F5A8A9EE1 /* Pods-GamifyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamifyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F964FBBEAA8E704161B68716D9B9007C /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
+		FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Sugar.swift"; path = "Source/UIStoryboard+Sugar.swift"; sourceTree = "<group>"; };
 		FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideController.swift; path = Source/SlideController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A325AAFE109272B85689483EA39F9B2 /* Frameworks */ = {
+		3283D12B3FC54AB9D3D45C3163407F95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A6A7A3A65DF32E22D5D653BA2FB34A /* Foundation.framework in Frameworks */,
-				DA332FA5801E5AAC2EE773DF21AEA1D0 /* UIKit.framework in Frameworks */,
+				CDC157B81719DA2B167451A98372E11B /* Foundation.framework in Frameworks */,
+				DE878DA1D924D39F9F1FF32D0AF511A3 /* Pages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE733A0BE0F771F277CA00A65FBF7EFF /* Frameworks */ = {
+		379F75C38164958D7C031754993DEB77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D3A126BBAAFD20A25A250CE1BF0647 /* Foundation.framework in Frameworks */,
-				C0016DB768E29435469A8994567CEAD8 /* Pages.framework in Frameworks */,
+				C56D3FA40C20B44D62FE88B7E6293F34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEC7B69165B5437CB701982EF8FE4A53 /* Frameworks */ = {
+		62AA5863F78CE1E495EF9F30CD1A0F40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFED2409939DAA4638B0EEAF0D4B378 /* Foundation.framework in Frameworks */,
+				39F15AE327BF4D256F266DB60F4C34C3 /* Foundation.framework in Frameworks */,
+				87F2DAFDCB510F6F420825F28EC106E2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB3942ABEB78C4846981726C33B36C77 /* Frameworks */ = {
+		D4FEFD86922BFDA091868675F960AF99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0076A66C5DABA4747D6EB46B25DFC95 /* Foundation.framework in Frameworks */,
-				F8FE0198CFC525C6F2277DB56A498CC4 /* UIKit.framework in Frameworks */,
+				0CC530996904780A996BB3D8A3A4CE92 /* Foundation.framework in Frameworks */,
+				5DE063128FBF3F4DDCB442C1D738BA4C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		064552CE8F829FD5AA267013C62B12A9 /* Support Files */ = {
+		0E614598B165C6722FC1144E624B2F33 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				28E3DD8C7CFD57C3E296F1F2E10C2559 /* Info.plist */,
-				2E4B93B633D9E4340588B42FBBBB635F /* Presentation.modulemap */,
-				9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */,
-				9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */,
-				E0BCEBF528ABA90C61BD3F9B14A30CC3 /* Presentation-prefix.pch */,
-				BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */,
+				FAAC33261D2D60F781CD0F442CFBAED1 /* Foundation.framework */,
+				EF6BBE406AC04E798E53A746A6BFF4AD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1264F929D29CAA24FBBC8082C1743BB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0622114B8954F3588A4D0A908A966E55 /* Pages.modulemap */,
+				DED067697416D09B4272CFB34C603B0E /* Pages.xcconfig */,
+				5106EE7C607BDDFFB0B6CB39970A9D82 /* Pages-dummy.m */,
+				7651BE1B2145D2751DEFBC1024A05DD4 /* Pages-Info.plist */,
+				8ECB87CF47C4AB5FA17FB3D1A2D6E1FD /* Pages-prefix.pch */,
+				D1E10D2088DB944B6EC444455F1BA825 /* Pages-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Presentation";
+			path = "../Target Support Files/Pages";
 			sourceTree = "<group>";
 		};
 		3112A5D1A0037F87E3313C50D8C51955 /* Pods */ = {
@@ -185,18 +193,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		44D22D483F38D3CFA23F2C972FDCB171 /* Support Files */ = {
+		4C90C6289680D720D7B1D9BFB10C0373 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F09A1511585CBD7E4D2667D1E59DEC3C /* Info.plist */,
-				BBA1F457A57C8D05DC3B0691922EBF4E /* Pages.modulemap */,
-				B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */,
-				D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */,
-				061DE26F34E2F15E1C5CA245298956CA /* Pages-prefix.pch */,
-				D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */,
+				EEAAA5A83740E0833E13D70D43ADCC00 /* Presentation.modulemap */,
+				1DB81E4EA9104B927DF7F67BF4A70F87 /* Presentation.xcconfig */,
+				0B8F2D72FF7A747E982D29B57B04A35E /* Presentation-dummy.m */,
+				29993DF1E85E1473B64D74160C27AFFE /* Presentation-Info.plist */,
+				F0DD79DF254ECADD0574659C110CE12E /* Presentation-prefix.pch */,
+				EA5874CF93DF784989D250585E9BCC28 /* Presentation-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pages";
+			path = "../Target Support Files/Presentation";
 			sourceTree = "<group>";
 		};
 		71B308CC233AF441D46661934DA3F08D /* Hue */ = {
@@ -204,7 +212,7 @@
 			children = (
 				70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */,
 				3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */,
-				F31CDA329779D99FD160EA3F7180F933 /* Support Files */,
+				CCEDC0AD1AD41F029FE222218101F37B /* Support Files */,
 			);
 			name = Hue;
 			path = Hue;
@@ -222,7 +230,7 @@
 				184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */,
 				FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */,
 				AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */,
-				064552CE8F829FD5AA267013C62B12A9 /* Support Files */,
+				4C90C6289680D720D7B1D9BFB10C0373 /* Support Files */,
 			);
 			name = Presentation;
 			path = Presentation;
@@ -231,19 +239,44 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				C374812FC0A96468614C0DBE6A757460 /* Frameworks */,
 				3112A5D1A0037F87E3313C50D8C51955 /* Pods */,
 				C4A153AD3693C68F460222E069DDEC9D /* Products */,
-				D94A0026650B55CF94456BDA8829AE5C /* Targets Support Files */,
+				9511CE74CE0449EC19A1292DC4345D8B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9511CE74CE0449EC19A1292DC4345D8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF019AFD757A04752413849772A0E63 /* Pods-GamifyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEF019AFD757A04752413849772A0E63 /* Pods-GamifyApp */ = {
+			isa = PBXGroup;
+			children = (
+				074E3FE55CAC29BF56E1C1154E044097 /* Pods-GamifyApp.modulemap */,
+				F830AAE925DDC3CD82E1820F5A8A9EE1 /* Pods-GamifyApp-acknowledgements.markdown */,
+				C6A879A5F33A6718945C91C6716C2CD8 /* Pods-GamifyApp-acknowledgements.plist */,
+				C96F3C71A8FB8A0AFCE41C00CD8243E9 /* Pods-GamifyApp-dummy.m */,
+				D1D7E03CA70C9A7762992870ACA07647 /* Pods-GamifyApp-frameworks.sh */,
+				2C301E1E2E8540E21482BF4A51C8028D /* Pods-GamifyApp-Info.plist */,
+				427B2F75CA398FD5598A4492A17E6580 /* Pods-GamifyApp-umbrella.h */,
+				787FD92D4ADDDEECCFEB6DEBAF72EF54 /* Pods-GamifyApp.debug.xcconfig */,
+				6319F2960DCE744916E3DCC0B8EA2089 /* Pods-GamifyApp.release.xcconfig */,
+			);
+			name = "Pods-GamifyApp";
+			path = "Target Support Files/Pods-GamifyApp";
 			sourceTree = "<group>";
 		};
 		C374812FC0A96468614C0DBE6A757460 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */,
-				E57D469D825B07184AD7706A21AC44B4 /* iOS */,
+				0E614598B165C6722FC1144E624B2F33 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,147 +292,118 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CCEDC0AD1AD41F029FE222218101F37B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F964FBBEAA8E704161B68716D9B9007C /* Hue.modulemap */,
+				9FCA7C9275407A3A122C2CC1FEA535B1 /* Hue.xcconfig */,
+				10838007174EB3995A1BBB113BA04398 /* Hue-dummy.m */,
+				913914084D405B70DB72CAB2B181C485 /* Hue-Info.plist */,
+				D4CFCB46EAE9D5A0577DB4A65DB045C8 /* Hue-prefix.pch */,
+				DA5495AE114EF2011BCF80BD0495A24D /* Hue-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hue";
+			sourceTree = "<group>";
+		};
 		D2CB32DD2DF028DF76328106239F5285 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
 				1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */,
 				AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */,
 				FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */,
-				44D22D483F38D3CFA23F2C972FDCB171 /* Support Files */,
+				1264F929D29CAA24FBBC8082C1743BB6 /* Support Files */,
 			);
 			name = Pages;
 			path = Pages;
 			sourceTree = "<group>";
 		};
-		D94A0026650B55CF94456BDA8829AE5C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E68E3347CF84D534146B3936170E19CD /* Pods-GamifyApp */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E57D469D825B07184AD7706A21AC44B4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */,
-				83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E68E3347CF84D534146B3936170E19CD /* Pods-GamifyApp */ = {
-			isa = PBXGroup;
-			children = (
-				DA5DF998C96CF7E16E20CF9DC1DE42A4 /* Info.plist */,
-				7E2FC8917FDDD93079E8AA89CFEE6E86 /* Pods-GamifyApp.modulemap */,
-				820E2FB9E29BCD50BAE54B8FAACD638A /* Pods-GamifyApp-acknowledgements.markdown */,
-				EAB29E2EFD9EC5A896256605B3A4F79F /* Pods-GamifyApp-acknowledgements.plist */,
-				B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */,
-				109EADD0CDAE858E1511EF0A465DCD5A /* Pods-GamifyApp-frameworks.sh */,
-				1F6C859346CF117C34D0D33CF5051219 /* Pods-GamifyApp-resources.sh */,
-				432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */,
-				BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */,
-				8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */,
-			);
-			name = "Pods-GamifyApp";
-			path = "Target Support Files/Pods-GamifyApp";
-			sourceTree = "<group>";
-		};
-		F31CDA329779D99FD160EA3F7180F933 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD92ACF3FCD6E69F9BFDD5807943F /* Hue.modulemap */,
-				E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */,
-				C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */,
-				5B202648CB068E6C9B04EF49CE633B0A /* Hue-prefix.pch */,
-				4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */,
-				E1C665AF5B3F9A20CB549A7F949D6F38 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Hue";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		732B2D5C005F43F375DDC5830C24E6EB /* Headers */ = {
+		41F47A7AB6D67760CFFAF4C7A026E707 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B194CF3DC7385E0650CFFED27CA3C9 /* Pods-GamifyApp-umbrella.h in Headers */,
+				00D15E0F3AEF1FA500368967D628DD06 /* Presentation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C7477047EC55087FC6F6AF048C4AE2 /* Headers */ = {
+		831910205FA395CB084AD37E805AB34E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC89A6C5DC7A77E8319A1ABD72181772 /* Pages-umbrella.h in Headers */,
+				F791AAC57019379FE4EE60A87F2911E2 /* Hue-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D88025770867607FD6F61D8E5FF37439 /* Headers */ = {
+		AAB9C10C183655EC13AA66095A690F05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1AA527B0A6D13610D556A4FC3765C9 /* Presentation-umbrella.h in Headers */,
+				7058D028E17F4FCDA3561E736864EC18 /* Pages-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */ = {
+		CF47C7D0F43EBDFB63C06CD6D96D8898 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */,
+				1D43FE47F4467D491E0F6A83320C9B73 /* Pods-GamifyApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4E050B62537A7E4FC038E95A002BF635 /* Pages */ = {
+		0C92273620396F1B3C54A7414FDCF55E /* Pods-GamifyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59D5809CCD779FC84CFF8B5CF8C8C018 /* Build configuration list for PBXNativeTarget "Pages" */;
+			buildConfigurationList = 9FCCD4128DA2BDAE56AD36B54AADA25F /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */;
 			buildPhases = (
-				15D8E75D34FC73248CC6195577D89F40 /* Sources */,
-				EB3942ABEB78C4846981726C33B36C77 /* Frameworks */,
-				B8C7477047EC55087FC6F6AF048C4AE2 /* Headers */,
+				CF47C7D0F43EBDFB63C06CD6D96D8898 /* Headers */,
+				4BF965A9C13F533F2C8638FBED0C07A4 /* Sources */,
+				379F75C38164958D7C031754993DEB77 /* Frameworks */,
+				BC6EC463997754BAF34C9A5730E3287E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				648325A69AE55E5E082A1A6F1664F1A6 /* PBXTargetDependency */,
+				F4636C9A2108284669316296A1D4EFB6 /* PBXTargetDependency */,
+				2E0F344A476FFF5AE5BE2247371E70D6 /* PBXTargetDependency */,
 			);
-			name = Pages;
-			productName = Pages;
-			productReference = E46616944626F94452FAD4A76E486369 /* Pages.framework */;
+			name = "Pods-GamifyApp";
+			productName = "Pods-GamifyApp";
+			productReference = C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		96E625E804F115436BF37E60191D243D /* Presentation */ = {
+		54468DD73591E286BF8F29DDDCA54086 /* Presentation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F02C60450545807E278D89F08DF8ACB /* Build configuration list for PBXNativeTarget "Presentation" */;
+			buildConfigurationList = 1349469062CAC6FFD4BD690C70476E5C /* Build configuration list for PBXNativeTarget "Presentation" */;
 			buildPhases = (
-				4F8C7C46178A5ECEAAA099CD41D0845A /* Sources */,
-				BE733A0BE0F771F277CA00A65FBF7EFF /* Frameworks */,
-				D88025770867607FD6F61D8E5FF37439 /* Headers */,
+				41F47A7AB6D67760CFFAF4C7A026E707 /* Headers */,
+				C55CC319A484DAC21818D0DABB1CAF7F /* Sources */,
+				3283D12B3FC54AB9D3D45C3163407F95 /* Frameworks */,
+				7A45C4F27E0FF0E4EDFD5680E8FE4BEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9382025691C729DE9B82E34A95A1DF56 /* PBXTargetDependency */,
+				538EA4E01D090E803C9B0834195149C5 /* PBXTargetDependency */,
 			);
 			name = Presentation;
 			productName = Presentation;
 			productReference = AB6816F3C293A36A1FE26176154C1E07 /* Presentation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B2542602E50EDF091ADB18B4688DF34F /* Hue */ = {
+		77C36D6D9ED175C0126E2FB753CC136A /* Hue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */;
+			buildConfigurationList = 02F13FC8E5274803CE647623218C811E /* Build configuration list for PBXNativeTarget "Hue" */;
 			buildPhases = (
-				5447F17F074A6885C2DE5EA00B620E76 /* Sources */,
-				0A325AAFE109272B85689483EA39F9B2 /* Frameworks */,
-				F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */,
+				831910205FA395CB084AD37E805AB34E /* Headers */,
+				B85EBBAB08836506B9BE4170C01E750A /* Sources */,
+				62AA5863F78CE1E495EF9F30CD1A0F40 /* Frameworks */,
+				E7CF554E27D14880B612A01AEF9796E6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -410,24 +414,22 @@
 			productReference = 688DDCEBE5216CFCE488728D5D3C2B35 /* Hue.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F620D1B35D2670AB3B96559F4644E8AC /* Pods-GamifyApp */ = {
+		8013C50ACFCB01E29FA71F095DD964AC /* Pages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D8817AAEA6D83E516AA7EA023024268 /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */;
+			buildConfigurationList = 5C4C10357AB159B7048C2AF64E571A19 /* Build configuration list for PBXNativeTarget "Pages" */;
 			buildPhases = (
-				9BEF988821218E712C4A3BC131BDA096 /* Sources */,
-				CEC7B69165B5437CB701982EF8FE4A53 /* Frameworks */,
-				732B2D5C005F43F375DDC5830C24E6EB /* Headers */,
+				AAB9C10C183655EC13AA66095A690F05 /* Headers */,
+				D3CEEB4C964810607AA78F95A4E08133 /* Sources */,
+				D4FEFD86922BFDA091868675F960AF99 /* Frameworks */,
+				1EA2A6BE41622288F38A4DCB1EDE965E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34A5D6D0DAE947DE233891127B25E7E3 /* PBXTargetDependency */,
-				09BA73BA401A59E39B95FC246EDC7E1E /* PBXTargetDependency */,
-				F94F9C3D0FEA6C78DAE8879C4CBE147E /* PBXTargetDependency */,
 			);
-			name = "Pods-GamifyApp";
-			productName = "Pods-GamifyApp";
-			productReference = C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */;
+			name = Pages;
+			productName = Pages;
+			productReference = E46616944626F94452FAD4A76E486369 /* Pages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -451,92 +453,157 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2542602E50EDF091ADB18B4688DF34F /* Hue */,
-				4E050B62537A7E4FC038E95A002BF635 /* Pages */,
-				F620D1B35D2670AB3B96559F4644E8AC /* Pods-GamifyApp */,
-				96E625E804F115436BF37E60191D243D /* Presentation */,
+				77C36D6D9ED175C0126E2FB753CC136A /* Hue */,
+				8013C50ACFCB01E29FA71F095DD964AC /* Pages */,
+				0C92273620396F1B3C54A7414FDCF55E /* Pods-GamifyApp */,
+				54468DD73591E286BF8F29DDDCA54086 /* Presentation */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1EA2A6BE41622288F38A4DCB1EDE965E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A45C4F27E0FF0E4EDFD5680E8FE4BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6EC463997754BAF34C9A5730E3287E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CF554E27D14880B612A01AEF9796E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		15D8E75D34FC73248CC6195577D89F40 /* Sources */ = {
+		4BF965A9C13F533F2C8638FBED0C07A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BA7DEB131D996DEE5350E547FF3014 /* Array+Sugar.swift in Sources */,
-				0A43EA5C67F39828285CBBB24581DDC2 /* Pages-dummy.m in Sources */,
-				6FA259876CDE08F0AC268BDB61D134F2 /* PagesController.swift in Sources */,
-				F950243D24FE39915449EA1ED8E639DF /* UIStoryboard+Sugar.swift in Sources */,
+				E3225860CD244F2DB6BF42090A13DB44 /* Pods-GamifyApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F8C7C46178A5ECEAAA099CD41D0845A /* Sources */ = {
+		B85EBBAB08836506B9BE4170C01E750A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68DE8C423D399E976F3C97FEFC6687C /* Animatable.swift in Sources */,
-				F1A5E06485C3D4BE5115FAA87BBD5678 /* CGPointExtension.swift in Sources */,
-				77C209980222D7A113AA84DF8C20D0CE /* Content.swift in Sources */,
-				27FAF534B5FC86F415F3EB34A0CE954E /* DissolveAnimation.swift in Sources */,
-				377EF1453BA0F54594BD59FBA798678C /* PopAnimation.swift in Sources */,
-				4508AD57C1E89D51580E249FDFCD1A6A /* Position.swift in Sources */,
-				A3E4A4D1DA5BBDAF49AA542E4E8E7184 /* Presentation-dummy.m in Sources */,
-				34569A7150A9E6EB49E85079419546E9 /* PresentationController.swift in Sources */,
-				BCA88184C540A9997D6015EB44C41717 /* SlideController.swift in Sources */,
-				65392940D9EFB4765E2EF0CF2EF96A22 /* TransitionAnimation.swift in Sources */,
+				E7E31C0683199F6742566A090B828F4A /* Hue-dummy.m in Sources */,
+				02E76C84A0C6C419EA93A2026E008315 /* UIColor+Hue.swift in Sources */,
+				C8160C44E5DA428A77B00CE87426CE25 /* UIImage+Hue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5447F17F074A6885C2DE5EA00B620E76 /* Sources */ = {
+		C55CC319A484DAC21818D0DABB1CAF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */,
-				83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */,
-				F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */,
+				A5C747B2EAF6EA545580F6CEFD157C6A /* Animatable.swift in Sources */,
+				AD21D0EBA53CA70CDAA73C15FD7C1171 /* CGPointExtension.swift in Sources */,
+				CAB487F3EEEC76FC3615DBF79F3132D0 /* Content.swift in Sources */,
+				6C4F071FFB4F02CA0E3A1C34FDAB8C23 /* DissolveAnimation.swift in Sources */,
+				469AE8D85AC48E2200B64E4F65A47469 /* PopAnimation.swift in Sources */,
+				A632729C5CD93E146A279BA1637BD995 /* Position.swift in Sources */,
+				FBFF805B45D0CDF799F82A8905007A15 /* Presentation-dummy.m in Sources */,
+				917430259C702E75137AD5160132B4C2 /* PresentationController.swift in Sources */,
+				27C7EE9A66F18AC5298AFFE74953D63D /* SlideController.swift in Sources */,
+				08A89D84686B1902D62439A3BF31D3FF /* TransitionAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BEF988821218E712C4A3BC131BDA096 /* Sources */ = {
+		D3CEEB4C964810607AA78F95A4E08133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F1143CE3338BE4A1F874CF3EE44B03 /* Pods-GamifyApp-dummy.m in Sources */,
+				42303763E0AA11D0E5477676B0EE087D /* Array+Sugar.swift in Sources */,
+				DA5B26B606F56C17B86F21B587CC8614 /* Pages-dummy.m in Sources */,
+				F3BEDE623A4D66A3CF004E7B2D60E6A5 /* PagesController.swift in Sources */,
+				280D47E98038A1E105E09B6EFD972D7C /* UIStoryboard+Sugar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09BA73BA401A59E39B95FC246EDC7E1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Pages;
-			target = 4E050B62537A7E4FC038E95A002BF635 /* Pages */;
-			targetProxy = D91E747DBBC132584CE31F2986B8E01D /* PBXContainerItemProxy */;
-		};
-		34A5D6D0DAE947DE233891127B25E7E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Hue;
-			target = B2542602E50EDF091ADB18B4688DF34F /* Hue */;
-			targetProxy = 289BF041FA59EF850FF0C42D27CA2BBD /* PBXContainerItemProxy */;
-		};
-		9382025691C729DE9B82E34A95A1DF56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Pages;
-			target = 4E050B62537A7E4FC038E95A002BF635 /* Pages */;
-			targetProxy = 2FE69352BF4B0EF68F262210BC169FFF /* PBXContainerItemProxy */;
-		};
-		F94F9C3D0FEA6C78DAE8879C4CBE147E /* PBXTargetDependency */ = {
+		2E0F344A476FFF5AE5BE2247371E70D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Presentation;
-			target = 96E625E804F115436BF37E60191D243D /* Presentation */;
-			targetProxy = DA89ABBE435819712EDFA48B1F4F46F3 /* PBXContainerItemProxy */;
+			target = 54468DD73591E286BF8F29DDDCA54086 /* Presentation */;
+			targetProxy = 9E490E5FC1E4E1C8005A201CC46FB746 /* PBXContainerItemProxy */;
+		};
+		538EA4E01D090E803C9B0834195149C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pages;
+			target = 8013C50ACFCB01E29FA71F095DD964AC /* Pages */;
+			targetProxy = D4584217DA24DF791BB8F2C9FD2379BB /* PBXContainerItemProxy */;
+		};
+		648325A69AE55E5E082A1A6F1664F1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hue;
+			target = 77C36D6D9ED175C0126E2FB753CC136A /* Hue */;
+			targetProxy = BA664096A28322BAF40B5CF02717FF63 /* PBXContainerItemProxy */;
+		};
+		F4636C9A2108284669316296A1D4EFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pages;
+			target = 8013C50ACFCB01E29FA71F095DD964AC /* Pages */;
+			targetProxy = 6A21DC4F2C409EE4F12F8F0379B64012 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		0638014A9D72FF015FC5EB22D80827F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6319F2960DCE744916E3DCC0B8EA2089 /* Pods-GamifyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -568,8 +635,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -590,83 +655,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		34838ADB6C43FA9F962BA4CE6911774E /* Release */ = {
+		091E772863B94F5396F6CCECC0352EE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
-				PRODUCT_MODULE_NAME = Hue;
-				PRODUCT_NAME = Hue;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		37059FD3F5C29DB2C271A4B19B334C3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
-				PRODUCT_MODULE_NAME = Hue;
-				PRODUCT_NAME = Hue;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DDF425993437EF4727FF1AC93B2623B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */;
+			baseConfigurationReference = DED067697416D09B4272CFB34C603B0E /* Pages.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -678,7 +681,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Pages/Pages-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pages/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pages/Pages-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -688,7 +691,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10E8C2CA18AA2035E7C2D261DD8E8560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCA7C9275407A3A122C2CC1FEA535B1 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Hue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -696,9 +730,9 @@
 			};
 			name = Debug;
 		};
-		4F951685E14A185A4866EADCA7CE4BDD /* Release */ = {
+		12306FAA5542976F0678A02A5D67DF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */;
+			baseConfigurationReference = DED067697416D09B4272CFB34C603B0E /* Pages.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -710,7 +744,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Pages/Pages-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pages/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pages/Pages-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -720,40 +754,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59C1F7E2C68AA2C38E16F7BBD97C9D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Presentation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
-				PRODUCT_MODULE_NAME = Presentation;
-				PRODUCT_NAME = Presentation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -761,42 +761,9 @@
 			};
 			name = Debug;
 		};
-		807F8FE0C843FD44DC863BFD000DD832 /* Release */ = {
+		659505BBC49A3D0B780756CFAF58EB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Presentation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
-				PRODUCT_MODULE_NAME = Presentation;
-				PRODUCT_NAME = Presentation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81E764408D1843EDE520A27894C93483 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */;
+			baseConfigurationReference = 787FD92D4ADDDEECCFEB6DEBAF72EF54 /* Pods-GamifyApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -808,7 +775,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -821,19 +788,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		AC8EE23D8F5630EED1D5A0A1B006E375 /* Debug */ = {
+		87757BBD120AB309E33E4BCBA9515726 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */;
+			baseConfigurationReference = 9FCA7C9275407A3A122C2CC1FEA535B1 /* Hue.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -843,28 +807,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Hue-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B44472EB4299D131FAF9EF74ECAAEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB81E4EA9104B927DF7F67BF4A70F87 /* Presentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentation/Presentation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
+				PRODUCT_MODULE_NAME = Presentation;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -896,8 +889,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -916,56 +907,92 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FFFFA2BF3FC52CD2C75A42DC7CC7FFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB81E4EA9104B927DF7F67BF4A70F87 /* Presentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentation/Presentation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
+				PRODUCT_MODULE_NAME = Presentation;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02F13FC8E5274803CE647623218C811E /* Build configuration list for PBXNativeTarget "Hue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E8C2CA18AA2035E7C2D261DD8E8560 /* Debug */,
+				87757BBD120AB309E33E4BCBA9515726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1349469062CAC6FFD4BD690C70476E5C /* Build configuration list for PBXNativeTarget "Presentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44472EB4299D131FAF9EF74ECAAEF24 /* Debug */,
+				FFFFA2BF3FC52CD2C75A42DC7CC7FFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59D5809CCD779FC84CFF8B5CF8C8C018 /* Build configuration list for PBXNativeTarget "Pages" */ = {
+		5C4C10357AB159B7048C2AF64E571A19 /* Build configuration list for PBXNativeTarget "Pages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDF425993437EF4727FF1AC93B2623B /* Debug */,
-				4F951685E14A185A4866EADCA7CE4BDD /* Release */,
+				12306FAA5542976F0678A02A5D67DF44 /* Debug */,
+				091E772863B94F5396F6CCECC0352EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D8817AAEA6D83E516AA7EA023024268 /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */ = {
+		9FCCD4128DA2BDAE56AD36B54AADA25F /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC8EE23D8F5630EED1D5A0A1B006E375 /* Debug */,
-				81E764408D1843EDE520A27894C93483 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6F02C60450545807E278D89F08DF8ACB /* Build configuration list for PBXNativeTarget "Presentation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59C1F7E2C68AA2C38E16F7BBD97C9D08 /* Debug */,
-				807F8FE0C843FD44DC863BFD000DD832 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37059FD3F5C29DB2C271A4B19B334C3D /* Debug */,
-				34838ADB6C43FA9F962BA4CE6911774E /* Release */,
+				659505BBC49A3D0B780756CFAF58EB22 /* Debug */,
+				0638014A9D72FF015FC5EB22D80827F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
