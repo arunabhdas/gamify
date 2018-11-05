@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F1143CE3338BE4A1F874CF3EE44B03 /* Pods-GamifyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */; };
+		0A43EA5C67F39828285CBBB24581DDC2 /* Pages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */; };
+		20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FAF534B5FC86F415F3EB34A0CE954E /* DissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */; };
+		34569A7150A9E6EB49E85079419546E9 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */; };
+		377EF1453BA0F54594BD59FBA798678C /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */; };
+		4508AD57C1E89D51580E249FDFCD1A6A /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */; };
+		54A6A7A3A65DF32E22D5D653BA2FB34A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
+		55B194CF3DC7385E0650CFFED27CA3C9 /* Pods-GamifyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1AA527B0A6D13610D556A4FC3765C9 /* Presentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65392940D9EFB4765E2EF0CF2EF96A22 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */; };
+		6FA259876CDE08F0AC268BDB61D134F2 /* PagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */; };
+		70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */; };
+		77C209980222D7A113AA84DF8C20D0CE /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */; };
+		83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */; };
+		A3E4A4D1DA5BBDAF49AA542E4E8E7184 /* Presentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */; };
+		A68DE8C423D399E976F3C97FEFC6687C /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745E75A148E7283613C6B85CE21622DB /* Animatable.swift */; };
+		AC89A6C5DC7A77E8319A1ABD72181772 /* Pages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFED2409939DAA4638B0EEAF0D4B378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
+		B0076A66C5DABA4747D6EB46B25DFC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
+		BCA88184C540A9997D6015EB44C41717 /* SlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */; };
+		C0016DB768E29435469A8994567CEAD8 /* Pages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */; };
+		C3BA7DEB131D996DEE5350E547FF3014 /* Array+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */; };
+		DA332FA5801E5AAC2EE773DF21AEA1D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */; };
+		F1A5E06485C3D4BE5115FAA87BBD5678 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */; };
+		F2D3A126BBAAFD20A25A250CE1BF0647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */; };
+		F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */; };
+		F8FE0198CFC525C6F2277DB56A498CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */; };
+		F950243D24FE39915449EA1ED8E639DF /* UIStoryboard+Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289BF041FA59EF850FF0C42D27CA2BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2542602E50EDF091ADB18B4688DF34F;
+			remoteInfo = Hue;
+		};
+		2FE69352BF4B0EF68F262210BC169FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E050B62537A7E4FC038E95A002BF635;
+			remoteInfo = Pages;
+		};
+		D91E747DBBC132584CE31F2986B8E01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E050B62537A7E4FC038E95A002BF635;
+			remoteInfo = Pages;
+		};
+		DA89ABBE435819712EDFA48B1F4F46F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96E625E804F115436BF37E60191D243D;
+			remoteInfo = Presentation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061DE26F34E2F15E1C5CA245298956CA /* Pages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-prefix.pch"; sourceTree = "<group>"; };
+		109EADD0CDAE858E1511EF0A465DCD5A /* Pods-GamifyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamifyApp-frameworks.sh"; sourceTree = "<group>"; };
+		10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = Source/PresentationController.swift; sourceTree = "<group>"; };
+		1F6C859346CF117C34D0D33CF5051219 /* Pods-GamifyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamifyApp-resources.sh"; sourceTree = "<group>"; };
+		1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sugar.swift"; path = "Source/Array+Sugar.swift"; sourceTree = "<group>"; };
+		28E3DD8C7CFD57C3E296F1F2E10C2559 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4B93B633D9E4340588B42FBBBB635F /* Presentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentation.modulemap; sourceTree = "<group>"; };
+		3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
+		432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamifyApp-umbrella.h"; sourceTree = "<group>"; };
+		4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DissolveAnimation.swift; path = Source/Animations/DissolveAnimation.swift; sourceTree = "<group>"; };
+		4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
+		4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopAnimation.swift; path = Source/Animations/PopAnimation.swift; sourceTree = "<group>"; };
+		5B202648CB068E6C9B04EF49CE633B0A /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		688DDCEBE5216CFCE488728D5D3C2B35 /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
+		7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Source/Position.swift; sourceTree = "<group>"; };
+		745E75A148E7283613C6B85CE21622DB /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = Source/Animations/Animatable.swift; sourceTree = "<group>"; };
+		7E2FC8917FDDD93079E8AA89CFEE6E86 /* Pods-GamifyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamifyApp.modulemap"; sourceTree = "<group>"; };
+		820E2FB9E29BCD50BAE54B8FAACD638A /* Pods-GamifyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamifyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = Source/Extensions/CGPointExtension.swift; sourceTree = "<group>"; };
+		8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentation.xcconfig; sourceTree = "<group>"; };
+		9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentation-dummy.m"; sourceTree = "<group>"; };
+		AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagesController.swift; path = Source/PagesController.swift; sourceTree = "<group>"; };
+		AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Content.swift; path = Source/Content.swift; sourceTree = "<group>"; };
+		AB6816F3C293A36A1FE26176154C1E07 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Presentation.framework; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimation.swift; path = Source/Animations/TransitionAnimation.swift; sourceTree = "<group>"; };
+		B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pages.xcconfig; sourceTree = "<group>"; };
+		B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamifyApp-dummy.m"; sourceTree = "<group>"; };
+		BBA1F457A57C8D05DC3B0691922EBF4E /* Pages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pages.modulemap; sourceTree = "<group>"; };
+		BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamifyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-umbrella.h"; sourceTree = "<group>"; };
+		C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GamifyApp.framework; path = "Pods-GamifyApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
+		D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pages-umbrella.h"; sourceTree = "<group>"; };
+		D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pages-dummy.m"; sourceTree = "<group>"; };
+		DA5DF998C96CF7E16E20CF9DC1DE42A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BCEBF528ABA90C61BD3F9B14A30CC3 /* Presentation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentation-prefix.pch"; sourceTree = "<group>"; };
+		E1C665AF5B3F9A20CB549A7F949D6F38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46616944626F94452FAD4A76E486369 /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pages.framework; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
+		EAB29E2EFD9EC5A896256605B3A4F79F /* Pods-GamifyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamifyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEAFD92ACF3FCD6E69F9BFDD5807943F /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
+		F09A1511585CBD7E4D2667D1E59DEC3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Sugar.swift"; path = "Source/UIStoryboard+Sugar.swift"; sourceTree = "<group>"; };
+		FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideController.swift; path = Source/SlideController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A325AAFE109272B85689483EA39F9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6A7A3A65DF32E22D5D653BA2FB34A /* Foundation.framework in Frameworks */,
+				DA332FA5801E5AAC2EE773DF21AEA1D0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE733A0BE0F771F277CA00A65FBF7EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D3A126BBAAFD20A25A250CE1BF0647 /* Foundation.framework in Frameworks */,
+				C0016DB768E29435469A8994567CEAD8 /* Pages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7B69165B5437CB701982EF8FE4A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFED2409939DAA4638B0EEAF0D4B378 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3942ABEB78C4846981726C33B36C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0076A66C5DABA4747D6EB46B25DFC95 /* Foundation.framework in Frameworks */,
+				F8FE0198CFC525C6F2277DB56A498CC4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064552CE8F829FD5AA267013C62B12A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E3DD8C7CFD57C3E296F1F2E10C2559 /* Info.plist */,
+				2E4B93B633D9E4340588B42FBBBB635F /* Presentation.modulemap */,
+				9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */,
+				9F99096166526C64C2C7E898D122D3A7 /* Presentation-dummy.m */,
+				E0BCEBF528ABA90C61BD3F9B14A30CC3 /* Presentation-prefix.pch */,
+				BDBDC722F399E43D40BFFF92C327D677 /* Presentation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Presentation";
+			sourceTree = "<group>";
+		};
+		3112A5D1A0037F87E3313C50D8C51955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71B308CC233AF441D46661934DA3F08D /* Hue */,
+				D2CB32DD2DF028DF76328106239F5285 /* Pages */,
+				7D1C71D709BCA04298E88A0A922EE0FE /* Presentation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D22D483F38D3CFA23F2C972FDCB171 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09A1511585CBD7E4D2667D1E59DEC3C /* Info.plist */,
+				BBA1F457A57C8D05DC3B0691922EBF4E /* Pages.modulemap */,
+				B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */,
+				D79B3ACEC750905BD03345040D09B188 /* Pages-dummy.m */,
+				061DE26F34E2F15E1C5CA245298956CA /* Pages-prefix.pch */,
+				D68C43D3BE6F80B76834A82E8BCF92B6 /* Pages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pages";
+			sourceTree = "<group>";
+		};
+		71B308CC233AF441D46661934DA3F08D /* Hue */ = {
+			isa = PBXGroup;
+			children = (
+				70B5D078F2632682A3CDF6A46DAD53AC /* UIColor+Hue.swift */,
+				3F37377B6A5EC129B9EC0A57ABC007DC /* UIImage+Hue.swift */,
+				F31CDA329779D99FD160EA3F7180F933 /* Support Files */,
+			);
+			name = Hue;
+			path = Hue;
+			sourceTree = "<group>";
+		};
+		7D1C71D709BCA04298E88A0A922EE0FE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				745E75A148E7283613C6B85CE21622DB /* Animatable.swift */,
+				8B61E58488843E26B1BB68892CD67BAB /* CGPointExtension.swift */,
+				AB412CC4CF151F44CFEE2DC79ED61591 /* Content.swift */,
+				4745A017DDE1A4A8067EBDD13F3CF687 /* DissolveAnimation.swift */,
+				4D5D5E08C6B37447DBFA8ED3C88AFE01 /* PopAnimation.swift */,
+				7211BE82545E79CFCCADEFFD9162D6C4 /* Position.swift */,
+				184FBCDCC431584C398ED29501E03114 /* PresentationController.swift */,
+				FD9C71807857E1F3D0FDAE3F14F869D6 /* SlideController.swift */,
+				AC7F7BEBBC1866B00505B3077114D3F8 /* TransitionAnimation.swift */,
+				064552CE8F829FD5AA267013C62B12A9 /* Support Files */,
+			);
+			name = Presentation;
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C374812FC0A96468614C0DBE6A757460 /* Frameworks */,
+				3112A5D1A0037F87E3313C50D8C51955 /* Pods */,
+				C4A153AD3693C68F460222E069DDEC9D /* Products */,
+				D94A0026650B55CF94456BDA8829AE5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C374812FC0A96468614C0DBE6A757460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B13DAC3932CB0A9F4F1181FFE365BA /* Pages.framework */,
+				E57D469D825B07184AD7706A21AC44B4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4A153AD3693C68F460222E069DDEC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688DDCEBE5216CFCE488728D5D3C2B35 /* Hue.framework */,
+				E46616944626F94452FAD4A76E486369 /* Pages.framework */,
+				C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */,
+				AB6816F3C293A36A1FE26176154C1E07 /* Presentation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CB32DD2DF028DF76328106239F5285 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				1F872D2EDFDAAC499CF413AAF3475F59 /* Array+Sugar.swift */,
+				AAFDE2EAC26492E509338E1E17F25CB5 /* PagesController.swift */,
+				FB4150A2F0D64F54E8F2F9D38459B44D /* UIStoryboard+Sugar.swift */,
+				44D22D483F38D3CFA23F2C972FDCB171 /* Support Files */,
+			);
+			name = Pages;
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		D94A0026650B55CF94456BDA8829AE5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E68E3347CF84D534146B3936170E19CD /* Pods-GamifyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E57D469D825B07184AD7706A21AC44B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A602BCCAA1386845C59E4F9C59B6F62 /* Foundation.framework */,
+				83C3E3A7A1C6AE6FA94108BB1E3CB513 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E68E3347CF84D534146B3936170E19CD /* Pods-GamifyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA5DF998C96CF7E16E20CF9DC1DE42A4 /* Info.plist */,
+				7E2FC8917FDDD93079E8AA89CFEE6E86 /* Pods-GamifyApp.modulemap */,
+				820E2FB9E29BCD50BAE54B8FAACD638A /* Pods-GamifyApp-acknowledgements.markdown */,
+				EAB29E2EFD9EC5A896256605B3A4F79F /* Pods-GamifyApp-acknowledgements.plist */,
+				B87E867A4F7FCC36DDB9E43195B14D41 /* Pods-GamifyApp-dummy.m */,
+				109EADD0CDAE858E1511EF0A465DCD5A /* Pods-GamifyApp-frameworks.sh */,
+				1F6C859346CF117C34D0D33CF5051219 /* Pods-GamifyApp-resources.sh */,
+				432BD4125E0CA685DB3F848C0FDB4DDC /* Pods-GamifyApp-umbrella.h */,
+				BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */,
+				8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */,
+			);
+			name = "Pods-GamifyApp";
+			path = "Target Support Files/Pods-GamifyApp";
+			sourceTree = "<group>";
+		};
+		F31CDA329779D99FD160EA3F7180F933 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAFD92ACF3FCD6E69F9BFDD5807943F /* Hue.modulemap */,
+				E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */,
+				C62BC72C111081347CD24EDC3F28BCC1 /* Hue-dummy.m */,
+				5B202648CB068E6C9B04EF49CE633B0A /* Hue-prefix.pch */,
+				4CC196AB0FA2B7C71BBC9AB2B2C2921C /* Hue-umbrella.h */,
+				E1C665AF5B3F9A20CB549A7F949D6F38 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		732B2D5C005F43F375DDC5830C24E6EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B194CF3DC7385E0650CFFED27CA3C9 /* Pods-GamifyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C7477047EC55087FC6F6AF048C4AE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89A6C5DC7A77E8319A1ABD72181772 /* Pages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88025770867607FD6F61D8E5FF37439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1AA527B0A6D13610D556A4FC3765C9 /* Presentation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E050B62537A7E4FC038E95A002BF635 /* Pages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D5809CCD779FC84CFF8B5CF8C8C018 /* Build configuration list for PBXNativeTarget "Pages" */;
+			buildPhases = (
+				15D8E75D34FC73248CC6195577D89F40 /* Sources */,
+				EB3942ABEB78C4846981726C33B36C77 /* Frameworks */,
+				B8C7477047EC55087FC6F6AF048C4AE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pages;
+			productName = Pages;
+			productReference = E46616944626F94452FAD4A76E486369 /* Pages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96E625E804F115436BF37E60191D243D /* Presentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F02C60450545807E278D89F08DF8ACB /* Build configuration list for PBXNativeTarget "Presentation" */;
+			buildPhases = (
+				4F8C7C46178A5ECEAAA099CD41D0845A /* Sources */,
+				BE733A0BE0F771F277CA00A65FBF7EFF /* Frameworks */,
+				D88025770867607FD6F61D8E5FF37439 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9382025691C729DE9B82E34A95A1DF56 /* PBXTargetDependency */,
+			);
+			name = Presentation;
+			productName = Presentation;
+			productReference = AB6816F3C293A36A1FE26176154C1E07 /* Presentation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2542602E50EDF091ADB18B4688DF34F /* Hue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */;
+			buildPhases = (
+				5447F17F074A6885C2DE5EA00B620E76 /* Sources */,
+				0A325AAFE109272B85689483EA39F9B2 /* Frameworks */,
+				F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hue;
+			productName = Hue;
+			productReference = 688DDCEBE5216CFCE488728D5D3C2B35 /* Hue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F620D1B35D2670AB3B96559F4644E8AC /* Pods-GamifyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8817AAEA6D83E516AA7EA023024268 /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */;
+			buildPhases = (
+				9BEF988821218E712C4A3BC131BDA096 /* Sources */,
+				CEC7B69165B5437CB701982EF8FE4A53 /* Frameworks */,
+				732B2D5C005F43F375DDC5830C24E6EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A5D6D0DAE947DE233891127B25E7E3 /* PBXTargetDependency */,
+				09BA73BA401A59E39B95FC246EDC7E1E /* PBXTargetDependency */,
+				F94F9C3D0FEA6C78DAE8879C4CBE147E /* PBXTargetDependency */,
+			);
+			name = "Pods-GamifyApp";
+			productName = "Pods-GamifyApp";
+			productReference = C0A78BB46ACF887664C23A9DF77D7740 /* Pods_GamifyApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4A153AD3693C68F460222E069DDEC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2542602E50EDF091ADB18B4688DF34F /* Hue */,
+				4E050B62537A7E4FC038E95A002BF635 /* Pages */,
+				F620D1B35D2670AB3B96559F4644E8AC /* Pods-GamifyApp */,
+				96E625E804F115436BF37E60191D243D /* Presentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D8E75D34FC73248CC6195577D89F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BA7DEB131D996DEE5350E547FF3014 /* Array+Sugar.swift in Sources */,
+				0A43EA5C67F39828285CBBB24581DDC2 /* Pages-dummy.m in Sources */,
+				6FA259876CDE08F0AC268BDB61D134F2 /* PagesController.swift in Sources */,
+				F950243D24FE39915449EA1ED8E639DF /* UIStoryboard+Sugar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8C7C46178A5ECEAAA099CD41D0845A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DE8C423D399E976F3C97FEFC6687C /* Animatable.swift in Sources */,
+				F1A5E06485C3D4BE5115FAA87BBD5678 /* CGPointExtension.swift in Sources */,
+				77C209980222D7A113AA84DF8C20D0CE /* Content.swift in Sources */,
+				27FAF534B5FC86F415F3EB34A0CE954E /* DissolveAnimation.swift in Sources */,
+				377EF1453BA0F54594BD59FBA798678C /* PopAnimation.swift in Sources */,
+				4508AD57C1E89D51580E249FDFCD1A6A /* Position.swift in Sources */,
+				A3E4A4D1DA5BBDAF49AA542E4E8E7184 /* Presentation-dummy.m in Sources */,
+				34569A7150A9E6EB49E85079419546E9 /* PresentationController.swift in Sources */,
+				BCA88184C540A9997D6015EB44C41717 /* SlideController.swift in Sources */,
+				65392940D9EFB4765E2EF0CF2EF96A22 /* TransitionAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5447F17F074A6885C2DE5EA00B620E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */,
+				83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */,
+				F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEF988821218E712C4A3BC131BDA096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F1143CE3338BE4A1F874CF3EE44B03 /* Pods-GamifyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09BA73BA401A59E39B95FC246EDC7E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pages;
+			target = 4E050B62537A7E4FC038E95A002BF635 /* Pages */;
+			targetProxy = D91E747DBBC132584CE31F2986B8E01D /* PBXContainerItemProxy */;
+		};
+		34A5D6D0DAE947DE233891127B25E7E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hue;
+			target = B2542602E50EDF091ADB18B4688DF34F /* Hue */;
+			targetProxy = 289BF041FA59EF850FF0C42D27CA2BBD /* PBXContainerItemProxy */;
+		};
+		9382025691C729DE9B82E34A95A1DF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pages;
+			target = 4E050B62537A7E4FC038E95A002BF635 /* Pages */;
+			targetProxy = 2FE69352BF4B0EF68F262210BC169FFF /* PBXContainerItemProxy */;
+		};
+		F94F9C3D0FEA6C78DAE8879C4CBE147E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentation;
+			target = 96E625E804F115436BF37E60191D243D /* Presentation */;
+			targetProxy = DA89ABBE435819712EDFA48B1F4F46F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34838ADB6C43FA9F962BA4CE6911774E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37059FD3F5C29DB2C271A4B19B334C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5559C55B18D3E208E69AD038ED1BDD4 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DDF425993437EF4727FF1AC93B2623B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pages/Pages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pages/Pages.modulemap";
+				PRODUCT_MODULE_NAME = Pages;
+				PRODUCT_NAME = Pages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F951685E14A185A4866EADCA7CE4BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4776C953718321D86A9FF969D15884F /* Pages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pages/Pages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pages/Pages.modulemap";
+				PRODUCT_MODULE_NAME = Pages;
+				PRODUCT_NAME = Pages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59C1F7E2C68AA2C38E16F7BBD97C9D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
+				PRODUCT_MODULE_NAME = Presentation;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		807F8FE0C843FD44DC863BFD000DD832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9521F709887C5802B80F1100E6B53163 /* Presentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentation/Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentation/Presentation.modulemap";
+				PRODUCT_MODULE_NAME = Presentation;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81E764408D1843EDE520A27894C93483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA7BFE3BB9F8A6411B92F7A72EDEBB0 /* Pods-GamifyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC8EE23D8F5630EED1D5A0A1B006E375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD69764634C883E4DFE4B25A6D80285C /* Pods-GamifyApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GamifyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GamifyApp/Pods-GamifyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D5809CCD779FC84CFF8B5CF8C8C018 /* Build configuration list for PBXNativeTarget "Pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDF425993437EF4727FF1AC93B2623B /* Debug */,
+				4F951685E14A185A4866EADCA7CE4BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8817AAEA6D83E516AA7EA023024268 /* Build configuration list for PBXNativeTarget "Pods-GamifyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8EE23D8F5630EED1D5A0A1B006E375 /* Debug */,
+				81E764408D1843EDE520A27894C93483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F02C60450545807E278D89F08DF8ACB /* Build configuration list for PBXNativeTarget "Presentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C1F7E2C68AA2C38E16F7BBD97C9D08 /* Debug */,
+				807F8FE0C843FD44DC863BFD000DD832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37059FD3F5C29DB2C271A4B19B334C3D /* Debug */,
+				34838ADB6C43FA9F962BA4CE6911774E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

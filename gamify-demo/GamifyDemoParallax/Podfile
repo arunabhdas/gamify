@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GamifyApp' do
+  pod 'Presentation'
+  pod 'Hue'
+end

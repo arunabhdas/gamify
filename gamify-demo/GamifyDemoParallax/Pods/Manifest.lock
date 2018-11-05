@@ -1,0 +1,24 @@
+PODS:
+  - Hue (3.0.1)
+  - Pages (2.0.2)
+  - Presentation (4.1.2):
+    - Pages (~> 2.0)
+
+DEPENDENCIES:
+  - Hue
+  - Presentation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hue
+    - Pages
+    - Presentation
+
+SPEC CHECKSUMS:
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  Pages: 5564ac6035c48fef7a837049314f57507d263b11
+  Presentation: 84974970fa451c89147d2bed4d5d50f857e71761
+
+PODFILE CHECKSUM: ac7f3695a71b4b5e092fe79b742ae0958e116544
+
+COCOAPODS: 1.5.3
